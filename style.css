@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@500&display=swap');
 
 :root{
-    --yellow:#e1d193;
+    --yellow:#eb840f85;
 }
 
 *{
@@ -16,7 +16,7 @@
 }
 *::selection{
     background: var(--yellow);
-    color: darkslategray;
+    color: rgb(220, 243, 243);
 }
 
 
@@ -35,7 +35,7 @@ html::-webkit-scrollbar-thumb{
     background:var(--yellow);
 }
 body{
-    background: #c629c65a;
+    background: #08040895;
     overflow-x: hidden;
     padding-left:35rem ;
     
@@ -45,7 +45,7 @@ section{
     padding:1rem ;
 }
 .btn{
-    padding: 7rem 3rem;
+    padding:.7rem 3rem;
     background: #333;
     color: #fff;
     cursor: pointer;
@@ -66,14 +66,14 @@ section{
     font-size: 4rem;
     padding: 1rem;
     border-bottom: .1rem solid #fff4;
-    color:#fff
+    color:#cf1111
 }
 .heading span{
     color:var(--yellow);
 }
 .home p{
     font-size:2rem;
-    color: #fcfaf6;
+    color: #efa208;
     padding: 1rem 0;
 }
 nav{
@@ -134,14 +134,14 @@ header .navbar{
     width: 100%;
 }
 header .navbar ul{
-    list-style: none;
-    padding:1rem 3rem ;
+    list-style:circle;
+    padding:3rem 3rem ;
 }
 header .navbar ul li a{
-    display: block;
+    display:block;
     padding: 1rem;
-    margin: 1.5rem 0;
-    background: #333;
+    margin:1.5 rem 0;
+    background: #060404;
     color: #fff;
     font-size: 2rem;
     border-radius: 5rem;
@@ -152,8 +152,8 @@ header .navbar ul li a:hover{
 #menu{
     position:fixed;
     top:2rem; right:2rem;
-    background: #f3eded;
-    color: #111;
+    background: #060101;
+    color: #0b080801;
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.5rem;
@@ -168,25 +168,25 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 .about .row .info{
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 6rem;
+    flex: 4 4 48rem;
+    padding: 6rem 4rem;
+    padding-left: 9rem;
 }
 .about .row .counter{
-    flex: 1 1 48rem;
+    flex: 4 4 48rem;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .about .row .counter .box{
-    width: 20rem;
+    width: 10rem;
     background: #222;
     text-align: center;
     padding: 2rem;
     margin: 2rem;
 }
 .about .row .counter .box span{
-    font-size: 4rem;
+    font-size: 6rem;
     color: var(--yellow);
 
 }
@@ -196,12 +196,12 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container{
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 1rem 0;
-    padding-left: 3rem;
+    padding-left: 6rem;
 }
 .education .box-container .box{
     width: 27rem;
@@ -212,7 +212,7 @@ header .navbar ul li a:hover{
 }
 .education .box-container .box span{
     font-size: 1.3rem;
-    background: #222;
+    background: hsla(0, 25%, 97%, 0.92);
     color: #eee;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
@@ -223,16 +223,16 @@ header .navbar ul li a:hover{
     padding-top: 1.5rem;
 }
 .education .box-container .box p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #eee;
-    padding:1rem 0 ;
+    padding:1rem 4 ;
 }
 .education .box-container .box i{
-    position: absolute;
+    position:absolute;
     top:-1.5rem; left: -2.5rem;
     height:5rem;
     width: 5rem;
-    border-radius: 50%;
+    border-radius: 100%;
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
@@ -300,7 +300,7 @@ header .navbar ul li a:hover{
 }
 .contact .row .content .title{
     text-transform:uppercase;
-    color: #222;
+    color: #e7e2e2;
     font-size: 3rem;
     padding-bottom: 2rem;
 
@@ -318,13 +318,6 @@ header .navbar ul li a:hover{
     color:var(--yellow);
 
 }
-
-
-
-
-
-
-
 @media (max-width:1200px){
     html{
         font-size: 55%;
