@@ -149,17 +149,7 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
     background: var(--yellow);
 }
-#menu{
-    position:fixed;
-    top:2rem; right:2rem;
-    background: #060101;
-    color: #0b080801;
-    cursor: pointer;
-    font-size: 2.5rem;
-    padding: 1rem 1.5rem;
-    z-index: 1000;
-    display:block ;
-}
+
 .about .row{
     display:flex;
     align-items: center;
@@ -168,18 +158,18 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 .about .row .info{
-    flex: 4 4 48rem;
-    padding: 6rem 4rem;
+    flex: 1 1 48rem;
+    padding: 2rem 4rem;
     padding-left: 9rem;
 }
 .about .row .counter{
-    flex: 4 4 48rem;
+    flex: 1 1 48rem;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .about .row .counter .box{
-    width: 10rem;
+    width: 50rem;
     background: #222;
     text-align: center;
     padding: 2rem;
@@ -273,12 +263,12 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
 }
 .contact .row .content{
-    flex: 1 1 30rem;
+    flex: 7 7 30rem;
     padding: 4rem;
     padding-bottom: 0;
 }
 .contact .row form {
-    flex: 1 1 45rem;
+    flex: 7 7 45rem;
    padding: 2rem;
    margin: 2rem;
    margin-bottom: 4rem;
@@ -294,7 +284,7 @@ header .navbar ul li a:hover{
     width: 100%;
 }
 .contact .row form .message{
-    height: 15rem;
+    height: 25rem;
     resize: none;
    
 }
